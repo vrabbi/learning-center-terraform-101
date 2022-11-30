@@ -1,0 +1,20 @@
+modules:
+  workshop-overview:
+    name: Workshop Overview
+    exit_sign: Setup Environment
+  setup-environment:
+    name: Setup Environment
+    exit_sign: Start Workshop
+  exercises/providers:
+    name: Providers
+  exercises/resources:
+    name: Resources
+  exercises/data-sources:
+    name: Data Sources
+  exercises/modules:
+    name: Modules
+  exercises/backends:
+    name: Backends
+  workshop-summary:
+    name: Workshop Summary
+    exit_sign: Finish Workshop

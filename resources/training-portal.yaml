@@ -1,0 +1,20 @@
+apiVersion: learningcenter.tanzu.vmware.com/v1beta1
+kind: TrainingPortal
+metadata:
+  name: terraform-101-portal
+spec:
+  portal:
+    ingress:
+      hostname: terraform-101-portal
+    registration:
+      enabled: true
+      type: anonymous
+    reserved: 0
+    sessions:
+      maximum: 15
+    updates:
+      workshop: true
+  workshops:
+  - expires: 45m
+    name: terraform-101
+    orphaned: 45m

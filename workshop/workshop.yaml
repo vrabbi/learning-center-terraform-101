@@ -1,0 +1,11 @@
+name: terraform-101
+modules:
+  activate:
+  - workshop-overview
+  - setup-environment
+  - providers
+  - resources
+  - data-sources
+  - modules
+  - backends
+  - workshop-summary

@@ -1,0 +1,34 @@
+apiVersion: learningcenter.tanzu.vmware.com/v1beta1
+kind: Workshop
+metadata:
+  name: terraform-101
+spec:
+  vendor: terasky
+  duration: 45m
+  difficulty: beginner
+  content:
+    files: github.com/vrabbi/learning-center-terraform-101
+  description: intro to terraform
+  session:
+    resources:
+      memory: 1Gi
+    applications:
+      console:
+        enabled: true
+        vendor: kubernetes
+      docker:
+        enabled: true
+        memory: 768
+        storage: 5
+      editor:
+        enabled: true
+      registry:
+        enabled: true
+        memory: 768
+        storage: 5
+      terminal:
+        enabled: true
+        layout: split/2
+    namespaces:
+      budget: small
+  title: Terraform 101 Course
