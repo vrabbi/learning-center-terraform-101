@@ -7,7 +7,7 @@ spec:
   duration: 45m
   difficulty: beginner
   content:
-    files: github.com/vrabbi/learning-center-terraform-101
+    files: github.com/vrabbi/learning-center-terraform-101?ref=main
   description: intro to terraform
   session:
     resources:
@@ -17,15 +17,11 @@ spec:
         enabled: true
         vendor: kubernetes
       docker:
-        enabled: true
-        memory: 768Mi
-        storage: 5Gi
+        enabled: false
       editor:
         enabled: true
       registry:
-        enabled: true
-        memory: 768Mi
-        storage: 5Gi
+        enabled: false
       terminal:
         enabled: true
         layout: split/2
