@@ -8,5 +8,6 @@ modules:
   - exercises/resources
   - exercises/plan
   - exercises/apply
+  - exercises/variables
   - exercises/destroy
   - workshop-summary

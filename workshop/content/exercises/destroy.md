@@ -17,6 +17,10 @@ Plan: 0 to add, 0 to change, 1 to destroy.
 
 Type `yes` and hit enter.
 
+```execute-1
+yes
+```
+
 You should then see:
 
 ```
@@ -27,6 +31,6 @@ Verify that `example.txt` has been deleted:
 
 ```execute-1
 cat example.txt
-```{{exec}}
+```
 
 Which should say `No such file or directory`
