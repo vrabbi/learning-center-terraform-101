@@ -5,16 +5,18 @@ modules:
   setup-environment:
     name: Setup Environment
     exit_sign: Start Workshop
+  exercises/backends:
+    name: Backends
   exercises/providers:
     name: Providers
   exercises/resources:
     name: Resources
-  exercises/data-sources:
-    name: Data Sources
-  exercises/modules:
-    name: Modules
-  exercises/backends:
-    name: Backends
+  exercises/plan:
+    name: Plan
+  exercises/apply:
+    name: Apply
+  exercises/destroy:
+    name: Destroy
   workshop-summary:
     name: Workshop Summary
     exit_sign: Finish Workshop

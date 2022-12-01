@@ -18,14 +18,14 @@ spec:
         vendor: kubernetes
       docker:
         enabled: true
-        memory: 768
-        storage: 5
+        memory: 768Mi
+        storage: 5Gi
       editor:
         enabled: true
       registry:
         enabled: true
-        memory: 768
-        storage: 5
+        memory: 768Mi
+        storage: 5Gi
       terminal:
         enabled: true
         layout: split/2

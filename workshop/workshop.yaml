@@ -3,9 +3,10 @@ modules:
   activate:
   - workshop-overview
   - setup-environment
-  - providers
-  - resources
-  - data-sources
-  - modules
-  - backends
+  - exercises/backends
+  - exercises/providers
+  - exercises/resources
+  - exercises/plan
+  - exercises/apply
+  - exercises/destroy
   - workshop-summary
