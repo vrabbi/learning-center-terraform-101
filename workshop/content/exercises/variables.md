@@ -81,5 +81,5 @@ yes
 View the contents of the file with the `cat` command:
 
 ```execute-1
-cat ~/example.txt
+cat example.txt
 ```
